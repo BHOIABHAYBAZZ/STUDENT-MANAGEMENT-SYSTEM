@@ -1,0 +1,152 @@
+/* Google Font */
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Poppins", sans-serif;
+}
+
+body {
+  background: #f4f7fc;
+}
+
+/* Navbar */
+
+.navbar {
+  background: linear-gradient(
+    135deg,
+    #0f172a,
+    #1e3a8a
+  ) !important;
+}
+
+.navbar-brand {
+  color: white !important;
+  font-size: 1.7rem;
+  font-weight: 700;
+  letter-spacing: 1px;
+}
+
+.nav-link {
+  color: white !important;
+  font-weight: 500;
+  transition: 0.3s;
+}
+
+.nav-link:hover {
+  color: #38bdf8 !important;
+  transform: translateY(-2px);
+}
+
+/* Buttons */
+
+.btn {
+  border-radius: 10px;
+  font-weight: 600;
+  transition: 0.3s;
+}
+
+.btn-success {
+  background: #10b981;
+  border: none;
+}
+
+.btn-success:hover {
+  background: #059669;
+  transform: translateY(-2px);
+}
+
+.btn-warning {
+  color: white;
+}
+
+.btn-danger:hover,
+.btn-primary:hover,
+.btn-warning:hover,
+.btn-success:hover {
+  transform: translateY(-2px);
+}
+
+/* Cards */
+
+.card {
+  border: none;
+  border-radius: 15px;
+  overflow: hidden;
+}
+
+.card-header {
+  border: none;
+}
+
+.shadow-lg {
+  box-shadow: 0 10px 25px rgba(0, 0, 0, 0.1) !important;
+}
+
+/* Tables */
+
+.table {
+  background: white;
+  border-radius: 15px;
+  overflow: hidden;
+}
+
+.table thead {
+  background: #1e293b;
+  color: white;
+}
+
+.table tbody tr:hover {
+  background: #f1f5f9;
+}
+
+/* Form */
+
+.form-control,
+.form-select {
+  border-radius: 10px;
+  padding: 10px;
+}
+
+.form-control:focus,
+.form-select:focus {
+  border-color: #2563eb;
+  box-shadow: 0 0 8px rgba(37, 99, 235, 0.3);
+}
+
+/* Heading */
+
+.page-title {
+  color: #1e3a8a;
+  font-weight: 700;
+}
+
+/* Badge */
+
+.badge {
+  padding: 8px 12px;
+  font-size: 0.8rem;
+  border-radius: 20px;
+}
+
+/* Responsive */
+
+@media (max-width: 768px) {
+  .navbar-brand {
+    font-size: 1.3rem;
+  }
+
+  .table {
+    font-size: 13px;
+  }
+}
+
+.navbar {
+  background: linear-gradient(
+    135deg,
+    #4f46e5,
+    #7c3aed
+  ) !important;
+}
